@@ -4,7 +4,7 @@
     "author_name": "John Doe",
     "author_image": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     "title": "Exploring the World of Artificial Intelligence",
-    "read_time": "10",
+    "read_time": 10,
     "hashtags": ["#AI", "#Technology"],
     "upload_date": "2023-11-28",
     "id":"1"
@@ -14,7 +14,7 @@
     "author_name": "Jane Smith",
     "author_image": "https://images.unsplash.com/photo-1566753323558-f4e0952af115?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFsZXxlbnwwfHwwfHx8MA%3D%3D",
     "title": "The Future of Space Travel: A Visionary Perspective",
-    "read_time": "8",
+    "read_time": 8,
     "hashtags": ["#Space", "#Exploration"],
     "upload_date": "2023-11-27",
     "id":"2"
@@ -24,7 +24,7 @@
     "author_name": "Alex Johnson",
     "author_image": "https://images.unsplash.com/profile-1605088024706-18d1e4576854image?bg=fff&crop=faces&h=150&w=150&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
     "title": "Healthy Living: Tips for a Balanced Lifestyle",
-    "read_time": "15",
+    "read_time": 15,
     "hashtags": ["#Wellness", "#Health"],
     "upload_date": "2023-11-26",
     "id":"3"
@@ -34,7 +34,7 @@
     "author_name": "Emily Brown",
     "author_image": "https://media.licdn.com/dms/image/C5103AQFj8mDWP7LujQ/profile-displayphoto-shrink_400_400/0/1547395483193?e=2147483647&v=beta&t=v0Z-jP5r1OYSX6Nt9QduPFEppxzqihbgkM25d_TZZS8",
     "title": "Mastering the Art of Photography: A Beginner's Guide",
-    "read_time": "12",
+    "read_time": 12,
     "hashtags": ["#Photography", "#Art"],
     "upload_date": "2023-11-25",
     "id":"4"
@@ -44,7 +44,7 @@
     "author_name": "David Wilson",
     "author_image": "https://thumbs.dreamstime.com/b/colored-portrait-handsome-smiling-man-gray-studio-background-posing-to-camera-portrait-smiling-man-black-t-shirt-109281369.jpg",
     "title": "Cooking Adventures: Culinary Delights from Around the World",
-    "read_time": "18",
+    "read_time": 18,
     "hashtags": ["#Cooking", "#Foodie"],
     "upload_date": "2023-11-24",
     "id":"5"
