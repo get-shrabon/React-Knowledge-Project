@@ -20,7 +20,7 @@ const Blog = ({ blog, handleBookmark, handleMarkTime }) => {
           <div className="flex items-center gap-3">
             <img className="author__img" src={author_image} alt="" />
             <div>
-              <h4 className="font-bold text-2xl">{author_name}</h4>
+              <h4 className="font-bold text-2xl">{author_name}</h4>   
               <p>
                 <small className="">{upload_date}</small>
               </p>
