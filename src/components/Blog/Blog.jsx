@@ -1,3 +1,4 @@
+
 // eslint-disable-next-line react/prop-types
 const Blog = ({ blog }) => {
   // eslint-disable-next-line react/prop-types
@@ -5,7 +6,7 @@ const Blog = ({ blog }) => {
   console.log(blog);
   return (
     <div className="card">
-      <img src={cover_image} alt="" />
+      <img className="rounded" src={cover_image} alt="" />
       <div className="flex items-center justify-between">
         <div>
           <div className="flex items-center gap-3">
@@ -19,16 +20,16 @@ const Blog = ({ blog }) => {
           </div>
         </div>
         <div className="flex items-center gap-3">
-          <p>{read_time}</p>
+          <p>{read_time} min read</p>
           <button></button>
         </div>
       </div>
       <h1 className="text-3xl font-bold">{title}</h1>
-      <div>
+      <div className="flex items-center gap-3">
         <a href="#">{hashtags[0]}</a>
         <a href="#">{hashtags[1]}</a>
       </div>
-      <a href="#">Mark as read</a>
+      <a className="underline text-lime-500 hover:no-underline" href="#">Mark as read</a>
     </div>
   );
 };
