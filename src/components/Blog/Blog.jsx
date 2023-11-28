@@ -11,6 +11,7 @@ const Blog = ({ blog, handleBookmark, handleMarkTime }) => {
     read_time,
     hashtags,
     upload_date,
+    id,
   } = blog;
   return (
     <div className="card">
@@ -20,7 +21,7 @@ const Blog = ({ blog, handleBookmark, handleMarkTime }) => {
           <div className="flex items-center gap-3">
             <img className="author__img" src={author_image} alt="" />
             <div>
-              <h4 className="font-bold text-2xl">{author_name}</h4>   
+              <h4 className="font-bold text-2xl">{author_name}</h4>
               <p>
                 <small className="">{upload_date}</small>
               </p>
@@ -39,7 +40,12 @@ const Blog = ({ blog, handleBookmark, handleMarkTime }) => {
         <a href="#">{hashtags[0]}</a>
         <a href="#">{hashtags[1]}</a>
       </div>
-      <button onClick={() => handleMarkTime(read_time)}className="underline text-lime-500 hover:no-underline">Mark as read</button>
+      <button
+        onClick={() => handleMarkTime(id,read_time)}
+        className="underline text-lime-500 hover:no-underline"
+      >
+        Mark as read
+      </button>
     </div>
   );
 };
